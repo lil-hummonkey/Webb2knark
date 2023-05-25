@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="stylesheet" type="text/css">
+    
+    
+    <head>
+        <title>Document</title>
+        <style>
+
+            body{
+        margin: auto;
+        
+        font-family: Arial, sans-serif;
+        background-color: #cacaca;
+        
+            }
+            #main-container{
+           display: grid;
+           height: auto;
+           grid: auto;
+           grid-template-areas: 
+           "about" "images";
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr, 1fr;
+           column-gap: 10px;
+        }
+
+            #topbar{
+                height: 10vh;
+                background-color: #ce146b;
+                display: block;
+                justify-content: space-between;
+                font-size: 50px;
+                color: #cacaca;
+                text-align: center;
+                border-radius: 10%;
+                border: 2px solid black;
+                text-shadow: 3px 3px 0 #000, 3px 3px 0 #000, 3px 3px 0 #000, 3px 3px 0 #000;
+
+            }
+
+            #OBS{
+                height: 10vh;
+                font-weight: bold;
+            }
+
+            #main-container > .about{
+                background-color: rgb(220, 132, 166);
+                height: auto;
+            }
+
+            
+
+            #main-container > .images {
+                background-color: rgb(234, 135, 166);
+                height: auto;
+                display: flex;
+                flex-direction:row;
+                grid-gap: 5px;
+                padding: 5px;
+            }
+
+            .image-container {
+                position: relative;
+            }
+
+            .image-container img {
+                width: 50%;
+                height: auto;
+            }
+
+            .text-box {
+                
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                color: white;
+                text-align: center;
+                padding: 5px;
+                font-size: 15px;
+
+            }
+
+            .texter {
+                position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-80%, -45%);
+    width: 50%;
+    color: azure;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+            }
+            
+            
+            
+        </style>
+    </head>
+<body>
+    
+    
+    <div id="topbar" >
+        
+
+            Information on narcotics and drugs
+        
+        </div>
+        <div id="OBS">
+            OBS! THIS WEBSITE DOES NOT ENDORSE THE USAGE OF ILLEGAL OR ADDICTIVE SUBSTANCES AND IS ONLY FOR EDUCATIONAL PURPOSES. IF YOU ARE PLANNING TO USE A DRUG PLEASE RECONSIDER, ELSE READ ABOUT ITS RISKS FOR SAFE USE.
+        </div>    
+        <section id="main-container">
+            <div class="about">
+                Drugs come in many different forms. Some are prescribed by pharmacies, some can be bought at your local supermarket and some are heavily regulated illegal substances. Often we are taught that these clasicifactions are the nuance with substances; Illegal drugs are bad and have no use, legal drugs are good and should be supported and even indulged (take anti-depressants for treating depression as an example). This however ignores that drugs are complex and have varying effects for not only the people who use them but the situation they are used in. It is also worth noting that the idea of all illegal drugs being bad causes both alienation for addicts and a lack of education on safety for people who decide to try these substances. This website is a collection of information on how to safely use/mix drugs, and what to stay away from v/s what has applications. 
+                <h4>The Drug Wheel:</h4>
+                <img src="Screenshot 2023-05-25 163947.png" height="500px" alt="">
+            </div>
+            
+            <div class="images">
+                <div class="image-container">
+                    <a href="antidep.html" target="_blank">
+                    <img src="antidep.png">
+                </a>
+                    <div class="text-box">Antidepressants</div>
+                    <div class="texter">Antidepressants are drugs often used as treatment medication for depression. The two most common are MAOs and SSRIs. These are prescription drugs which increase seratonin levels in the brain</div>
+
+                </div>
+                <div class="image-container">
+                    <a href="speed.html" target="_blank">
+                    <img src="download (1).jpg">
+                    </a>
+                    <div class="text-box">Stimulants</div>
+                    <div class="texter">Stimulants increase the speed and frequency of messages sent from the brain to the body. This causes the user to feel more energetic and awake, and often euphoric. Examples range from coffee and Concerta® to cocaine and methamphetamine</div>
+                </div>
+                <div class="image-container">
+                    <a href="depress.html" target="_blank">
+                        <img src="download (2).jpg">
+
+                    </a>
+                    <div class="text-box">Depressants</div>
+                    <div class="texter">Central Nervous System Depressants, or CNS, are drugs which slow brain activity, casuing drowseiness, relaxation and decreased inhibition. These drugs range from alcohol to benzodiazepines to sleep medication</div>
+                </div>
+                <div class="image-container">
+                    <a href="marijuan.html" target="_blank">
+                        <img src="download (3).jpg">
+
+                    </a>
+                    <div class="text-box">Cannabinoids</div>
+                    <div class="texter">Cannabinoids are the class of drugs used for marijuana and its sister-drugs, such as synthetic and medical cannabis. These are euphoric drugs which increase relaxation and change perception </div>
+                </div>
+                <div class="image-container">
+                    <a href="ecs.html" target="_blank">
+                        <img src="download (4).jpg">
+
+                    </a>
+                    <div class="text-box">Empathogens</div>
+                    <div class="texter">Empathogens increase users empathy and benevolence towards others, as well as being highly euphoric; they increase the release of dopamine and seratonin in the brain. MDMA (ecstacy) is the most famous empathogen.</div>
+                </div>
+                <div class="image-container">
+                    <a href="phs.html" target="_blank">
+                        <img src="download.jpg">
+                        
+                    </a>
+                    <div class="text-box">Psychedelics</div>
+                    <div class="texter">Psychedelics are a class of drugs which change perception, mood, cognitive wiring and cause strong hallucinations. They increase the neuron connections within the brain and are said to bring a sort of enlightenment. Common hallucinagens are psilocybin (magic mushrooms), LSD and Meskaline</div>
+                </div>
+                <div class="image-container">
+                    <a href="opioids.html" target="_blank">
+                        <img src="Opioid-drugs.png">
+
+                    </a>
+                    <div class="text-box">Opioids</div>
+                    <div class="texter">Opioids are technically classified under depressants, as they decrease brain activity and increase euphoria, but are classified differently as they bind to the brains opioidreceptors, which makes their affect significantly stronger and more addictive. Drugs in this class include heroin, fentanyl, morphine etc. </div>
+                </div>
+                <div class="image-container">
+                    <a href="dissas.html" target="_blank">
+                        
+                        <img src="download.png">
+                    </a>
+                    <div class="text-box">Dissociatives </div>
+                    <div class="texter">Dissociatives are a class of psychedelics which cause the user to feel detached and separated from their bodies and physical environment. they cause changed headspace, emotions and hallucinations. Common drugs are Ketamine, PCP (angle dust) and nitrous oxide (laughing gas)</div>
+                    <div>
+                    
+                </body>
+                
+ </html>
+                    
+    
